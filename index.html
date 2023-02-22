@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form name="form1">
+        <input id="calc" type="text" name="answer"><br>
+        <div>
+        <input type="button" class="one"  value="1" onclick="form1.answer.value+='1'">
+        <input type="button" class="one" value="2" onclick="form1.answer.value+='2'">
+        <input type="button"  class="one"value="3" onclick="form1.answer.value+='3'">
+        <input type="button" class="one" value="4" onclick="form1.answer.value+='4'"><br>
+        <input type="button" class="one" value="5" onclick="form1.answer.value+='5'">
+        <input type="button"class="one"  value="6" onclick="form1.answer.value+='6'">
+        <input type="button"class="one"  value="7" onclick="form1.answer.value+='7'">
+        <input type="button" class="one" value="8" onclick="form1.answer.value+='8'"><br>
+        <input type="button" class="one" value="9" onclick="form1.answer.value+='9'">
+        <input type="button" class="one" value="0" onclick="form1.answer.value+='0'">
+        <input type="button" class="one" value="+" onclick="form1.answer.value+='+'">
+        <input type="button" class="one" value="-" onclick="form1.answer.value+='-'"><br>
+        <input type="button" class="one" value="/" onclick="form1.answer.value+='/'">
+        <input type="button" class="one" value="*" onclick="form1.answer.value+='*'">
+        <input type="button" class="one" value="=" onclick="form1.answer.value=eval(form1.answer.value)"><br>
+        <input type="button" class="one" value = "Clear All" onclick = "form1.answer.value = ' ' " id= "clear" >  
+        <br> 
+    </div>
+
+
+    </form>
+</body>
+</html>

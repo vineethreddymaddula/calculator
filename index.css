@@ -1,0 +1,32 @@
+
+body{
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+form{
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: grey;
+    width: auto;
+}
+
+
+#calc{
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+}
+.one{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
